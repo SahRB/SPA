@@ -1,0 +1,32 @@
+@import url(global.css);
+body{
+    background-image: url(../images/mountains-universe-1.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0; /* Remove as margens padrão do corpo */
+    height: 100vh; /* 100% da altura da tela */
+    width:100%;
+}
+.content-home{
+    display: flex;
+    flex-direction: column;
+    padding: 12px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+h1{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%; /* 60px */
+    text-align: center;
+}
+.botao{
+
+    padding: 12px 32px;
+    gap: 8px;
+    border-radius: 5px;
+    border: 2px solid #FFF;
+}

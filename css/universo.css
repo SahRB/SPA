@@ -1,0 +1,27 @@
+@import url(global.css);
+body{
+    background-image: url(../images/mountains-universe02.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0; /* Remove as margens padrão do corpo */
+    height: 100vh; /* 100% da altura da tela */
+    width:100%;
+}
+.text{
+    padding-left: 102px;
+    padding-right: 530px;
+
+}
+.text h1{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+}
+.text p{
+    font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%;
+}
